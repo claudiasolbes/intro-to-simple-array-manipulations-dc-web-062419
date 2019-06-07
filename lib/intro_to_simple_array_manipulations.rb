@@ -29,6 +29,11 @@ def using_concat(my_favorite_things, more_favs)
   @all_my_favs = @my_favorite_things.concat(more_favs)
 end
 
+def using_concat(array1, array)
+  array = ["raindrops on roses", "whiskers on kittens"]
+  array1 = array.concat( ["mario kart", "flatiron school"] )
+end
+
 def using_insert(array, element)
   array.insert(4, "Malbolge")
 end
