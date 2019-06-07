@@ -23,10 +23,9 @@ def shift_with_args(array)
   array.shift(2)
 end
 
-def using_concat(array, array1)
+def using_concat(array1, array)
   array = ["raindrops on roses", "whiskers on kittens"]
-  array1 = ["mario kart", "flatiron school"]
-  array.concat(array1)
+  array.concat( ["mario kart", "flatiron school"] )
 end
 
 def using_insert(array, element)
