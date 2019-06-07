@@ -26,7 +26,7 @@ end
 def using_concat(array, array1)
   array = ["raindrops on roses", "whiskers on kittens"]
   array1 = ["mario kart", "flatiron school"]
-  new_array = array.concat(array1)
+  array.concat(array1)
 end
 
 def using_insert(array, element)
